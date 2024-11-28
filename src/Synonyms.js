@@ -1,12 +1,11 @@
 import React from "react";
+import "./Synonyms.css";
 
 export default function Synonyms(props) {
   if (props.synonyms) {
     return (
       <div className="Synonyms">
-        <strong>
-          <h5>Synonym(s): </h5>
-        </strong>
+        <strong>Synonym(s):</strong>
         <ul>
           {props.synonyms.map(function (synonym, index) {
             return <li key={index}>{synonym}</li>;
