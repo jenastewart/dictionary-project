@@ -1,9 +1,16 @@
+.App {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
 body {
   background: #79c2d0;
 }
 
-a {
-  color: #53a8b6;
+.App a {
+  color: #bee1e8;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .App-header {
@@ -13,4 +20,5 @@ a {
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  font-size: 16px;
 }
